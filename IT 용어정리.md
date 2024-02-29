@@ -89,4 +89,4 @@
 
     ![image](https://github.com/hanriverkitty/IT-expertise/assets/98452384/30d9c3e8-d2f6-487f-ab3d-2c98a1243d31)
 
-  출처 : [https://www.whatap.io/ko/blog/9/](https://www.whatap.io/ko/blog/9/)
+    출처 : [https://www.whatap.io/ko/blog/9/](https://www.whatap.io/ko/blog/9/)
