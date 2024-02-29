@@ -87,6 +87,6 @@
   - 소프트웨어 및 관련 데이터는 중앙에 호스팅되고 사용자는 웹 브라우저 등의 클라이언트를 통해 접속하는 형태의 소프트웨어 전달 모델이다
   - 예 : Youtube, Blog, Google Apps, Google Mail
 
-    <img src = 'https://www.whatap.io/ko/blog/9/img/iaas_paas_saas3.webp'>
+    ![image](https://github.com/hanriverkitty/IT-expertise/assets/98452384/30d9c3e8-d2f6-487f-ab3d-2c98a1243d31)
 
   출처 : [https://www.whatap.io/ko/blog/9/](https://www.whatap.io/ko/blog/9/)
