@@ -1,10 +1,7 @@
-# IT 용어정리
-
 - **DX = DT**
   DX는 Digital의 D와 Transformation(전환)의 의미를 갖고 있는 X로 만들어진 합성어입니다.
   DX 가 필요한 이유는 기업들이 디지털 기술을 적용하여 데이터에 기반한 빠르고 정확한 의사결정, 업무 자동화 등을 통해 경쟁력을 높이고, 혁신적 방식을 통해 기업의 제품이나 서비스를 구매하는 전 과정에서 고객의 경험을 전략적으로 관리해야하는 현실에 직면하게 된 것입니다.
   DX와 관련된 기술에는 AI, 클라우드, RPA, 로보틱스, 드론 등이 있다
-
 - **ERP**
   재무, 인사 관리, 제조, 공급망, 서비스, 조달 등 비즈니스의 여러 부문에서 자동화와 프로세스를 지원해 운영 효율성을 높이도록 돕는 소프트웨어 시스템
 - **MSA (MicroService Architecture)**
@@ -20,11 +17,11 @@
   - 한 프레임워크와 언어에 종속적이다
 - **SI/SM**
   > **SI (System Integration)**
-  > 시스템을 구축하는 업무
+  시스템을 구축하는 업무
   - 시스템의 개발, 기획, 유지보수, 운영 등을 대신해준다
   - 프로젝트 위주의 개발
-    > **SM (System Management)**
-    > 시스템을 운영하는 업무
+  > **SM (System Management)**
+  시스템을 운영하는 업무
   - 회사 시스템이 문제없이 작동하도록 유지하는 업무
   - 각 기업에 상주하여 시스템상의 오류를 수정하거나 기능 변경의 업무
 - **APM (Application Performance Management)**
@@ -32,16 +29,12 @@
 - **ICT (Information Technology + Communication)**
   기존의 IT가 정보 전반을 다루는 기술이라면 ICT는 스마트폰, 모바일 디바이스, 원격제어 등 IT 기술에 커뮤니케이션이 강조된 것입니다.
 - **트랜잭션 (Transaction)**
-
   - 트랜잭션은 데이터베이스의 상태를 변환시키는 하나의 논리적 기능을 수행하기 위한 작업의 단위 또는 한꺼번에 모두 수행되어야 할 일련의 연산들을 의미한다.
-
   > 예시) 사용자 A가 사용자 B에게 만원을 송금한다
   > 사용자 A의 계좌에서 만원을 차감한다
   > 사용자 B의 계좌에서 만원을 추가한다
   > 작업 단위 : 출금 + 입금 (하나의 트랜잭션)
-
   Commit 과 Rollback 연산을 통해 결과를 반영한다
-
 - **MVC 패턴**
   **MVC란 Model-View-Controller의 약자로 애플리케이션을 세 가지 역할로 구분한 개발 방법론입니다.**
   사용자가 Controller를 조작하면 Model을 통해 데이터를 가져오고, 데이터를 View를 통해 시각적으로 나타내준다
@@ -54,43 +47,44 @@
   - **컨트롤러 (Controller) :** 사용자가 접근한 URL 에 따라 사용자의 요청사항을 파악한 후 요청에 맞는 데이터를 Model에 의뢰하고, 데이터를 View에 반영해서 사용자에게 알려준다.
     - 모델이나 뷰에 대해서 알고 있어야 한다
     - 모델이나 뷰의 변경을 모니터링하고 있어야 한다
-      **MVC 장점**
+  **MVC 장점**
   - 모델과 뷰가 다른 컴포넌트들에 종속되지 않아 애플리케이션의 확장성, 유연성에 유리함
   - 중복코딩의 문제점 제거
 - **미들웨어**
   서로 다른 애플리케이션, 시스템, 프로토콜 등의 프로그램들이 서로 상호작용 할 수 있도록 **중간에서 매개 역할**을 하는 소프트웨어
 - **DevOps (Development + Operations)**
-
   소프트웨어 개발과 IT 운영 사이의 커뮤니케이션, 협업, 자동화, 통합을 강조하는 문화와 방법론
-
+  속도, 신속한 제공, 안정성, 확장 가능의 이점이 있다
+  > 개발자와 의 다른점
+  - 개발자
+    - 코드를 써서 소프트웨어를 만든다
+    - 단일 언어 및 플랫폼에 초점을 맞출 가능성이 높다
+  - DevOps 엔지니어
+    - 코드 관련 작업뿐만 아니라 모니터링, 테스트, 릴리스 관리 및 운영 계획과 관련된 문제를 다룬다
+    - 지속적 통합과 지속적 전달 방식으로 소프트웨어를 개발하고, 마이크로 서비스로 단일 애플리케이션을 작은 서비스의 집합으로 구축해 설계한다
+    - Jenkins 빌드생성
+    - Git 및 GitHub 서버 통함
+    - 정적 분석 도구를 사용하도록 빌드 파이프라인 구성
+    - Ex) Docker, CI/CD, Kubernetes
 - **IaaS, Paas, Saas**
-
   > **Iaas (Infrastructure as a Service)**
-
   - 인프라만 제공 (스토리지, 네트워크 등)
   - OS를 직접 설치하고 필요한 소프트웨어를 개발해서 사용
   - 가상의 컴퓨터를 하나 임대하는 것과 비슷함
   - 예 : AWS EC2, Google Cloud Paltform, Naver Cloud Platform
-
   > **Paas (Platform as a Service)**
-
   - 인프라 + OS + 기타 프로그램 실행에 필요한 부분
   - 바로 코드만 올려서 돌릴 수 있도록 구성
   - 제공자가 지정해준 프로그래밍 언어와 툴로 소비자가 만든 클라우드 환경 어플리케이션을 배포가능
   - 개발자가 맞춤형 애플리케이션을 개발하고 구축 할 수 있는 프레임워크 제공
   - 개발자는 완성된 소스를 올리기만 하면 된다
   - 예 : Heroku, Window Azure, AWS Elastic Beanstalk
-
   > **SaaS (Software as a Service)**
-
   - 제작되어진 응용 소프트웨어를 클라우드 서비스로 제공
   - 소프트웨어 및 관련 데이터는 중앙에 호스팅되고 사용자는 웹 브라우저 등의 클라이언트를 통해 접속하는 형태의 소프트웨어 전달 모델이다
   - 예 : Youtube, Blog, Google Apps, Google Mail
-
-    ![image](https://github.com/hanriverkitty/IT-expertise/assets/98452384/30d9c3e8-d2f6-487f-ab3d-2c98a1243d31)
-
-    출처 : [https://www.whatap.io/ko/blog/9/](https://www.whatap.io/ko/blog/9/)
-
+  ![출처 : https://www.whatap.io/ko/blog/9/](https://prod-files-secure.s3.us-west-2.amazonaws.com/bacf2c15-cf3d-4209-a416-388ed20cb023/7ee93af3-78ce-4b88-a40f-2c5fda7ef872/Untitled.png)
+  출처 : https://www.whatap.io/ko/blog/9/
 - **동기 (Sync) , 비동기 (Async)**
   - 동기
     - 요청과 응답이 동시에 일어난다
@@ -101,3 +95,37 @@
     - 웹페이지를 새로고침하지 않고도 데이터를 불러온다
     - 전체가 아닌 일부분만 업데이트 되므로 자원을 아낄 수 있다. 요청을 보낸 후에도 다른 작업을 할 수 있다
     - 요청과 응답의 순서를 보장할 수 없다. 에러가 발생했을 때 어떤 요청에서 에러가 발생했는지 파악하고 처리하기 쉽지 않다
+- **CI/CD**
+  CI (Continuous Integration) / CD (Continuous Delivery, Continuous Deployment)
+  > **CI**
+  - 개발 초기부터 실행이 가능한 상태로 코드를 유지하는 것
+  - 새로운 코드 변경사항이 정기적으로 빌드 및 테스트 되어 공유 레포지토리에 통합되는 것
+  - 풀 리퀘스트와 머지로 코드를 자주 통합하여, 각자가 작성한 코드를 합치고 난 후, 모두 모여 빌드를 시작하고 나서야 문제점을 파악할 수 있는 과정이 생략가능하다
+  - MSA 아키텍처에서의 기능 충돌 방지의 이점을 가질 수 있다
+  - CI는 새로운 소스코드의 빌드, 테스트, 병합까지를 의미한다
+  > **CD**
+  - Continous Delivery 또는 Continuous Deployment 두 용어의 축약어 이다
+  - 지속적인 서비스 제공 혹은 지속적인 배포
+  - Continous Delivery는 공유 레포지토리로 자동으로 release 하는 것
+  - Continuous Deployment 는 Production 레벨까지 자동으로 deploy 하는 것이다
+  - CD 는 개발자의 변경이 레포지토리를 넘어 고객의 프로덕션 환경까지 릴리즈 되는것을 의미한다
+  > **CI/CD 파이프라인 구성요소**
+  1. 빌드 (소프트웨어 컴파일)
+  2. 테스트 (호환성 및 오류 검사\_
+  3. 릴리스 (버전 제어 저장소의 애플리케이션 업데이트)
+  4. 배포 (개발에서 프로덕션 환경으로의 변환)
+  5. 규정 준수 및 유효성 검사
+  목포 : 빌드, 테스트 및 제공을 수동처리보다 더 빠르고 자동화되고 안정적으로 만드는 것
+  출처 : [https://velog.io/@leejungho9/CICD-란](https://velog.io/@leejungho9/CICD-%EB%9E%80) https://artist-developer.tistory.com/24
+- **DOM**
+  Document Object Model 의 약자로, HTML 요소를 JavaScript Object 처럼 조작할 수 있는 Model이다.
+  문서 내의 모든 요소를 정의하고, 각각의 요소에 접근하는 방법을 제공한다.
+- **Web server 와 WAS (Web Application Server) 의 차이**
+  - 웹서버
+    - 정적인 파일 (HTML, CSS, 이미지)을 제공하는 역할을 한다
+    - Apache 와 Nginx 가 있다
+    - 웹 페이지의 전달과 같은 단순한 기능을 수행하는 역할을 담당한다
+  - WAS
+    - 동적인 콘텐츠를 생성하고, 데이터를 처리하는 역할을 한다
+    - 톰캣과 제우스가 있다
+    - 웹 애플리케이션을 실행하기 위한 서버이다. 일종의 미들웨어 역할을 한다
